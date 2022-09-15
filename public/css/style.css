@@ -9,6 +9,16 @@
 /* LAYOUT
 /*******************************************/
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer{
+    margin-top: auto;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -34,4 +44,12 @@ a:hover {
 .btn-primary:hover {
     background-color: #6F9940;
     border-color: #6F9940;
+}
+
+#footImg {
+    background-image: url("../imgs/bottom.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100px;
+    width: 100%;
 }
