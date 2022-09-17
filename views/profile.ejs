@@ -8,15 +8,31 @@
               <a href="/logout" class="col-3 btn btn-primary">Logout</a>
           </div>
           <div class="mt-5">
-            <h2>Add a post</h2>
+            <h2>Add an herb:</h2>
             <form action="/post/createPost" enctype="multipart/form-data" method="POST">
               <div class="mb-3">
-                  <label for="title" class="form-label">Title</label>
-                  <input type="text" class="form-control" id="title" name="title">
+                  <label for="commonName" class="form-label">Common Name</label>
+                  <input type="text" class="form-control" id="commonName" name="commonName">
               </div>
               <div class="mb-3">
-                <label for="caption" class="form-label">Caption</label>
-                <textarea class="form-control" id="caption" name="caption"></textarea>
+                <label for="sciName" class="form-label">Scientific Name</label>
+                <input type="text" class="form-control" id="sciName" name="sciName">
+              </div>
+              <div class="mb-3">
+                <label for="origin" class="form-label">Cultural Origin</label>
+                <input type="text" class="form-control" id="origin" name="origin">
+              </div>
+              <div class="mb-3">
+                <label for="zone" class="form-label">Planting Zone</label>
+                <input type="text" class="form-control" id="zone" name="zone">
+              </div>
+              <div class="mb-3">
+                <label for="type" class="form-label">Plant Type</label>
+                <input type="text" class="form-control" id="type" name="type">
+              </div>
+              <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" name="description"></textarea>
               </div>
               <div class="mb-3">
                 <label for="imgUpload" class="form-label">Image</label>
