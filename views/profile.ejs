@@ -46,8 +46,9 @@
         <ul class="row list-unstyled">
         <% for(var i=0; i<posts.length; i++) {%>
           <li class="col-6 justify-content-between mt-5">
-            <a href="/post/<%= posts[i]._id%>">
-              <img class="img-fluid" src="<%= posts[i].image%>">
+            <a class="text-success text-decoration-none" href="/post/<%= posts[i]._id%>">
+              <h5><%= posts[i].commonName %></h5>
+              <img class="img-fluid border border-success" src="<%= posts[i].image%>">
             </a>
           </li>
         <% } %>

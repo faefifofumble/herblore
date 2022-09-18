@@ -5,6 +5,7 @@
 /*******************************************/
 
 
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -31,4 +32,8 @@ footer{
     background-image: url('/imgs/bottom.png');
     background-repeat: repeat-x;
     background-size: contain;
+}
+
+h5.link-success {
+    text-decoration: none;
 }
