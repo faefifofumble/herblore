@@ -9,6 +9,15 @@
 /* LAYOUT
 /*******************************************/
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    height: 100px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -18,20 +27,8 @@
     width: 100%;
 }
 
-a {
-    color: green;
-}
-
-a:hover {
-    color: #6F9940;
-}
-
-.btn-primary {
-    background-color: green;
-    border-color: green;
-}
-
-.btn-primary:hover {
-    background-color: #6F9940;
-    border-color: #6F9940;
+.footImg {
+    background-image: url('/imgs/bottom.png');
+    background-repeat: repeat-x;
+    background-size: contain;
 }
