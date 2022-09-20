@@ -28,7 +28,7 @@
     </div>
     <div class="col-6 mt-5 btn-group" role="group">
       <a class="btn btn-success border border-dark rounded" href="/profile">Return to Profile</a>
-      <a class="btn btn-success border border-dark rounded" href="/feed">Return to Feed</a>
+      <a class="btn btn-success border border-dark rounded" href="/feed">Return to All Herbs</a>
       <%if(post.user == user.id){ %>
         <form
             action="/post/deletePost/<%= post.id %>?_method=DELETE"
