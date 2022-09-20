@@ -1,7 +1,23 @@
 const mongoose = require("mongoose");
 
 const PostSchema = new mongoose.Schema({
-  title: {
+  commonName: {
+    type: String,
+    required: true,
+  },
+  sciName: {
+    type: String,
+    required: true,
+  },
+  origin: {
+    type: String,
+    required: true,
+  },
+  zone: {
+    type: String,
+    required: true,
+  },
+  type: {
     type: String,
     required: true,
   },
@@ -13,7 +29,7 @@ const PostSchema = new mongoose.Schema({
     type: String,
     require: true,
   },
-  caption: {
+  description: {
     type: String,
     required: true,
   },
